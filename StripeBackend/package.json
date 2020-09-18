@@ -1,0 +1,26 @@
+{
+  "name": "stripebackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yakash204/StripePayment.git"
+  },
+  "author": "Akash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yakash204/StripePayment/issues"
+  },
+  "homepage": "https://github.com/yakash204/StripePayment#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "stripe": "^8.96.0",
+    "uuid": "^8.3.0"
+  }
+}
